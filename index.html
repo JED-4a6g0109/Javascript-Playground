@@ -78,6 +78,8 @@
             const btn = document.querySelector('#btn');
             btn.onclick = function () {
                 move_count = 0;
+                answer_array = []
+
                 document.getElementById('move').innerHTML = `Move:${move_count}`
 
                 const rbs = document.querySelectorAll('input[name="select"]');
