@@ -181,7 +181,7 @@
 
 
 
-        //二維降成一維，為了方便確定是否完成好比對
+        //一維變二維
         function dimension_convert(array, split) {
 
             const newArr = [];
@@ -265,7 +265,7 @@
             }
 
         }
-
+        //降成一維，比對是否完成
         function reduce_array(arr) {
             return Array.prototype.concat.apply([], arr)
         }
